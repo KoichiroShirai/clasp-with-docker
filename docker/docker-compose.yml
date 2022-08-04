@@ -1,0 +1,10 @@
+version: '3'
+services:
+  clasp:
+    build: .
+    container_name: clasp
+    tty: true
+    volumes:
+      - type: bind
+        source: ../src/gas
+        target: /usr/src
