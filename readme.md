@@ -10,6 +10,17 @@
 ## Setup
 
 - Dockerをインストール
+- フォルダ構成
+
+```text
+    .
+    ├── docker
+    │   ├── Dockerfile
+    │   └── docker-compose.yml
+    ├── readme.md
+    └── src
+        └── gas
+```
 
 ## Usage
 
